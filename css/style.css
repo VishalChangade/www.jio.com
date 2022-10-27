@@ -104,6 +104,9 @@ section{
   padding-top: 30px;
  
 }
+.option2{
+    display: flex;
+}
 .Recharge{
     display: flex;
     justify-content: center;
@@ -300,8 +303,8 @@ h3{
         display: block;
         position: absolute;
         background-color: white;
-        height: 73vh;
-        width: 50vw;
+        height: 345px;
+        width: 60vw;
         border-radius: 5px;
         outline: 2px solid rgb(152, 9, 9);
     }
@@ -319,24 +322,34 @@ h3{
     }
     .option{
         display: flex;
-        flex-wrap: wrap;
+       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       padding-top: 30px;
-      gap: 20px;
+      gap: 10px;
      
     }
+    .option2{
+        display: flex;
+        flex-wrap: wrap;
+    }
     span{
+        display: flex;
+        flex-wrap: wrap;
         background-color: rgba(21, 0, 255, 0.135);
         border-radius: 100%;
         width: 60px;
         height:60px;
         transition: 0.3s;
     }
+    .option2 .b{
+        display: flex;
+    }
     .b{
         position: absolute;
         top: 200px;
     }
+
     .text{
         width: 150px;
         height: 50%;
@@ -388,4 +401,16 @@ h3{
         width: 90%;
          margin: 20px;
     }
+    .zero{
+        display: flex;
+    }
+}
+@media(max-width:400px) {
+     .zero{
+        display: flex;
+     }
+     .b{
+       position:absolute;
+       top: 195px;
+     }
 }
