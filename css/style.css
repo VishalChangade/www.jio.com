@@ -104,6 +104,9 @@ section{
   padding-top: 30px;
  
 }
+.zero{
+    display: flex;
+}
 .option2{
     display: flex;
 }
