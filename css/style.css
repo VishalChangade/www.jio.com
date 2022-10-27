@@ -1,0 +1,391 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    position:sticky;
+    top: 0px;
+    height: 70px;
+    z-index: 1;
+    background-color: rgb(9, 66, 253);
+}
+.nav{
+    display:flex;
+    flex-basis: 52%;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+ display: flex;
+ flex-basis: 100%;
+ justify-content: space-evenly;
+}
+ul li{
+    list-style-type: none;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color: rgb(157, 157, 157);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 10%;
+}
+.logo img{
+    width:50px;
+    height: 50px;
+}
+.search{           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+}
+.text{
+    width: 80%;
+    height:60%;
+    font-size: 17px;
+    border: white;
+    padding-left: 40px;
+    border-radius: 50px;
+    outline: none;
+    color: white;
+    background-color: rgb(0, 0, 201);
+}
+.text:hover{
+    background-color: rgb(1, 1, 157);
+}
+
+.fa-magnifying-glass{
+    position: relative;
+    left: 30px;
+    color: white;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 8%;
+}
+.fa-circle-user{
+    font-size: 40px;
+    position:relative;
+    left:0px;
+    color: white;
+}
+.fa-circle-user:hover{
+    color: rgb(205, 205, 205);
+}
+section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   
+}
+.option{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+ 
+}
+.Recharge{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+
+}
+.PayBills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+.GetJioSim{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+.port{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+.getjiofiber{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+.support{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+figcaption{
+    font-size: 15px;
+    padding: 25px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 135);
+}
+span{
+    position: absolute;
+    top: 85px;
+    background-color: rgba(21, 0, 255, 0.135);
+    border-radius: 100%;
+    width: 60px;
+    height:60px;
+    transition: 0.3s;
+}
+span:hover{
+    background-color: rgba(21, 0, 255, 0.135);
+    width: 100px;
+    height: 100px;
+    border-radius:10%;
+    transition: 0.3s;
+}
+.spotlight{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.spotlight h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+h3{
+    font-family: sans-serif;
+    color: gray;
+    font-weight: lighter;
+}
+
+.v{
+    display: flex;
+    margin: 30px;
+    margin-top: 100px;
+    padding: 10px;
+    box-shadow: 0px 1px 10px;
+    border-radius: 20px;
+}
+.aside h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-left: 30px;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.aside h3{
+    margin-left: 30px;
+}
+.vshop{
+    width: 200px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    background-color: blue;
+    border-radius: 50px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+}
+.vshop:hover{
+    background-color: rgb(1, 1, 157);
+}
+.vi{
+    display: flex;
+    margin-top: 100px;
+    padding: 10px;
+    
+}
+.video2{
+    height: 450px;
+}
+.aside2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(172, 153, 8);
+    justify-content: center;
+}
+.aside2 h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-left: 80px;
+}
+.aside2 .vshop{
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+    background-color: blue;
+    border-radius: 50px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    margin-left: 0px;
+}
+.aside2 .vshop:hover{
+    background-color: rgb(1, 1, 157);
+}
+.mar h1{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 20%;
+    text-shadow: 2px 2px 5px rgb(87, 87, 87);
+}
+.fa-bars{
+    visibility: hidden;
+    position: absolute;
+}
+@media(max-width:480px){
+    header{
+        position:sticky;
+        top: 0px;
+        background-color: rgb(9, 66, 253);
+       justify-content: space-evenly;
+    }
+    .fa-bars{
+        position: relative;
+        color: white;
+        top: 27%;
+        visibility: visible;
+        font-size: 30px;
+    }
+    .fa-bars ul{
+         display: none;
+    }
+    .fa-bars:hover ul{
+        display: block;
+        position: absolute;
+        background-color: white;
+        height: 73vh;
+        width: 50vw;
+        border-radius: 5px;
+        outline: 2px solid rgb(152, 9, 9);
+    }
+    ul li a{
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        font-size: 1rem;
+        color: black;
+    }
+    
+    .nav{
+        display: none;
+    }
+    .option{
+        display: flex;
+        flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+      gap: 20px;
+     
+    }
+    span{
+        background-color: rgba(21, 0, 255, 0.135);
+        border-radius: 100%;
+        width: 60px;
+        height:60px;
+        transition: 0.3s;
+    }
+    .b{
+        position: absolute;
+        top: 200px;
+    }
+    .text{
+        width: 150px;
+        height: 50%;
+    }
+    .spotlight h1{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .v{
+        display: flex;
+        flex-direction: column;
+    }
+    .video video{
+        width: 100%;
+    }
+    .aside{
+        text-align: center;
+        order: 1;
+    }
+    .vshop{
+        margin-left: 23%;
+    }
+    .vi{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .aside2{
+
+        padding: 10px;
+        order: 1;
+    }
+    .aside2 h1{
+        font-size: 30px;
+        margin-left: -10px;
+    }
+    
+    .video2{
+        height: 200px;
+        width: 100%;
+        background-color: rgb(172, 153, 8);
+    
+    }
+    .aside2 .vshop{
+        width: 90%;
+         margin: 20px;
+    }
+}
